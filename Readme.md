@@ -16,7 +16,7 @@
 
 ### Experiment tag and push to remote git repo
 
-1. ` git tag -a "xx-experiment" -m "Experiment with XXX"`
+1. ` git tag -a "xx-experiment" -m "Experiment with xxx"`
 2. `git push origin xx-experiment`
 
 ### DVC Data and Model push to remote storage
@@ -25,5 +25,6 @@
 
 ### Experiment repro
 
-`dvc repro`
+1. `git checkout xx-experiment`
+2. `dvc repro`
 
